@@ -15,7 +15,7 @@ const customRender = (ui) => (
   <AppContext.Provider value={userContextValue}>{ui}</AppContext.Provider>
 );
 
-test("Apresenta uma mensagem de boas-vindas com o nome de usuário", () => {
+test("Apresenta pagina com produtos, barra de busca", () => {
   const { getByText } = render(
     <AppContext.Provider value={userContextValue}>
       <Homepage />
