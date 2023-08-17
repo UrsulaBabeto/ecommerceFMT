@@ -1,3 +1,4 @@
+import React from 'react'
 import Card from 'react-bootstrap/Card';
 import { BsFillEnvelopeFill } from 'react-icons/bs';
 import { LinkContainer } from 'react-router-bootstrap';

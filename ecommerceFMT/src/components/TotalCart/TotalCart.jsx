@@ -1,3 +1,4 @@
+import React from 'react'
 import './TotalCart.css';
 import { LinkContainer } from 'react-router-bootstrap';
 import { formatCurrency } from './../../utils/formatCurrency';
