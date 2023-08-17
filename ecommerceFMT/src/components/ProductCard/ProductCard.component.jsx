@@ -1,5 +1,5 @@
 import { Button, Card } from 'react-bootstrap';
-import './ProductCard.style.css';
+/* import './ProductCard.style.css'; */
 import { useAppContext } from '../../context/Context';
 import { useNavigate } from 'react-router-dom';
 import { formatCurrency } from './../../utils/formatCurrency';

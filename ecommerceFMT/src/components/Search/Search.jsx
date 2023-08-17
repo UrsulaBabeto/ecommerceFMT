@@ -1,3 +1,4 @@
+import React from 'react'
 import { SlMagnifier } from "react-icons/sl";
 import { useAppContext } from "../../context/Context";
 import data from '../../assets/mock.json';

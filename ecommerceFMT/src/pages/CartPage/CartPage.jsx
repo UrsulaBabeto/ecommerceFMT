@@ -1,3 +1,4 @@
+import React from 'react'
 import { useAppContext } from '../../context/Context';
 import CartProduct from '../../components/CartProduct/CartProduct';
 import TotalCart from '../../components/TotalCart/TotalCart';

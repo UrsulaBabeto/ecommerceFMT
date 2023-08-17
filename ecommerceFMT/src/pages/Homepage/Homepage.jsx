@@ -1,3 +1,4 @@
+import React from 'react'
 import { Container } from 'react-bootstrap';
 import { useAppContext } from '../../context/Context'
 import { ProductCardComponent } from '../../components/ProductCard/ProductCard.component';

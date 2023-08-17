@@ -1,3 +1,4 @@
+import React from 'react'
 import {TbFaceIdError} from 'react-icons/tb'
 
 export const NotFoundPage = () => {
