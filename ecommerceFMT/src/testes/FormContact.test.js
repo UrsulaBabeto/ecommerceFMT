@@ -6,7 +6,7 @@ import { FormContact } from "../components/FormContact/FormContact";
 
 test("FormContact componente", () => {
   const mockTest = jest.fn();
-  const { getByPlaceholderText, getByText } = render(<FormContact onSubmit={mockTest}/>);
+  const { getByPlaceholderText, getByText } = render(<FormContact  handleSubmit={mockTest}/>);
 
   const firstName = getByPlaceholderText("Digite seu nome");
   const lastName = getByPlaceholderText("Digite seu sobrenome");
@@ -17,5 +17,8 @@ test("FormContact componente", () => {
   fireEvent.change(lastName, { target: { value: "Thunder" } });
   fireEvent.change(email, { target: { value: "email@email.com" } });
   fireEvent.click(submitBtn);
+
+  fireEvent.click(getByTestId("id"));
+  expect(mockTest).toHaveBeenCalled();
 
 });

@@ -17,7 +17,7 @@ export const ProductCardComponent = ({ product }) => {
           <Card.Title>{product.nome}</Card.Title>
         </a>
         <Card.Text>{formatCurrency(product.preco)}</Card.Text>
-        <Button variant="primary" onClick={() => addProductToCart(product.id)}>
+        <Button variant="primary" onClick={() => addProductToCart(product.id)} data-testid="id">
           Adicionar ao carrinho
         </Button>
       </Card.Body>

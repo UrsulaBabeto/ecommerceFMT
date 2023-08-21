@@ -29,7 +29,8 @@ function Search() {
             className="form-control w-75 mt-4"
             list="datalistOptions"
             onChange={handleSearch}
-            placeholder="Digite para procurar..."  
+            placeholder="Digite para procurar..." 
+             
           />
           <SlMagnifier className="mt-4"  style={{position: "absolute", right:"12rem"}}/>
         </form>

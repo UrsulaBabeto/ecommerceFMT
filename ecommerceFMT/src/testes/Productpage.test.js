@@ -17,13 +17,16 @@ const customRender = (ui) => (
 );
 
 test(" ProductPage Renderiza lista de card de produtos", () => {
-  const btnClose = jest.fn();
+  const closeRightSectionSpy  = jest.fn();
   const { getByTestId } = render(
     <AppContext.Provider value={userContextValue}>
-      <ProductPage closeRightSection={btnClose} />
+      <ProductPage addProductToCart={closeRightSectionSpy } />
     </AppContext.Provider>
   );
 
+  const btn = expect(screen.getByRole("button", { name: "Adicionar ao carrinho" })).toBeInTheDocument();
+  expect(btn).not.toBeDisabled();
+
   fireEvent.click(getByTestId("id"));
-  expect(btnClose).toHaveBeenCalled();
+  expect(closeRightSectionSpy ).toHaveBeenCalled();
 });
