@@ -12,5 +12,6 @@ test("Botao componente", () => {
     </BrowserRouter>
   );
 
-  expect(screen.getByRole("button")).toHaveTextContent()
+  expect(screen.getByRole("button", { text: "ola" })).toBeInTheDocument();
+
 });

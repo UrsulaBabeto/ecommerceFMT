@@ -13,10 +13,13 @@ const mockProduct = {
 };
 
 test("ProductCard componente", () => {
-   const closeRightSectionSpy  = jest.fn();
-  render(
+  const closeRightSectionSpy = jest.fn();
+  const { getByText, getByRole, getByTestId } = render(
     <BrowserRouter>
-      <ProductCardComponent product={mockProduct} addProductToCart={closeRightSectionSpy } />
+      <ProductCardComponent
+        product={mockProduct}
+        addProductToCart={closeRightSectionSpy}
+      />
     </BrowserRouter>
   );
   expect(screen.getByText("Produto de Exemplo")).toBeInTheDocument();
@@ -24,9 +27,11 @@ test("ProductCard componente", () => {
 
   expect(screen.getByRole("img")).toBeInTheDocument();
 
-  const btn = expect(screen.getByRole("button", { name: "Adicionar ao carrinho" })).toBeInTheDocument();
+  const btn = expect(
+    screen.getByRole("button", { name: "Adicionar ao carrinho" })
+  ).toBeInTheDocument();
   expect(btn).not.toBeDisabled();
 
-   fireEvent.click(getByTestId("id"));
-  expect(closeRightSectionSpy ).toHaveBeenCalled();
+  fireEvent.click(getByTestId("id"));
+  expect(closeRightSectionSpy).toHaveBeenCalled();
 });
