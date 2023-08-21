@@ -1,17 +1,28 @@
 /** @jest-environment jsdom */
 import React from "react";
 import { render } from "@testing-library/react";
-import '@testing-library/jest-dom';
+import "@testing-library/jest-dom";
 import { BrowserRouter } from "react-router-dom";
 import { ProductCardComponent } from "../components/ProductCard/ProductCard.component";
 
-test("Footer componente", () => {
+const mockProduct = {
+  id: 1,
+  nome: "Produto de Exemplo",
+  imagem: "imagem.jpg",
+  preco: 10.99,
+};
+
+test("ProductCard componente", () => {
   render(
     <BrowserRouter>
-      <ProductCardComponent />
+      <ProductCardComponent product={mockProduct} />
     </BrowserRouter>
   );
-/* 
-  const text = screen.getByText();
-  expect(text).toBeInTheDocument(); */
+  expect(screen.getByText("Produto de Exemplo")).toBeInTheDocument();
+  expect(screen.getByText("$10.99")).toBeInTheDocument();
+
+  expect(screen.getByRole("img")).toBeInTheDocument();
+
+  const btn = expect(screen.getByRole("button", { name: "Adicionar ao carrinho" })).toBeInTheDocument();
+  expect(btn).not.toBeDisabled();
 });

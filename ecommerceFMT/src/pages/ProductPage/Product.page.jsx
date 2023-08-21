@@ -38,6 +38,7 @@ export const ProductPage = () => {
               <Button
                 variant="primary"
                 onClick={() => addProductToCart(product[0].id)}
+                data-testid="id"
               >
                 Adicionar ao carrinho
               </Button>

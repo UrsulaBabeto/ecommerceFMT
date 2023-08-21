@@ -6,8 +6,7 @@ import data from '../../assets/mock.json';
 function Search() {
   const {products, setProducts} = useAppContext();
 
-  const handleSearch = (e) => {
-    
+  const handleSearch = (e) => {    
     if (!e.target.value) {
       return setProducts(data)
     } 

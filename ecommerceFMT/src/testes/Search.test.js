@@ -1,17 +1,19 @@
 /** @jest-environment jsdom */
 import React from "react";
-import { render } from "@testing-library/react";
-import '@testing-library/jest-dom';
-import { BrowserRouter } from "react-router-dom";
+import { fireEvent, render, screen } from "@testing-library/react";
+import "@testing-library/jest-dom";
 import Search from "../components/Search/Search";
 
-test("Footer componente", () => {
-  render(
-    <BrowserRouter>
-      <Search />
-    </BrowserRouter>
-  );
-/* 
-  const text = screen.getByText();
-  expect(text).toBeInTheDocument(); */
+test("Search componente", () => {
+  const mockTest = jest.fn();
+  render(<Search />);
+  expect(
+    screen.findByRole("datalist", { name: "datalistOptions" })
+  ).toBeInTheDocument();
+
+  const inputSearch = getByPlaceholderText("Digite para procurar...");
+  fireEvent.change(inputSearch, { target: { value: "teste" } });
+  expect(mockTest).toHaveBeenCalledWith({
+    inputSearch: "teste"
+  });
 });

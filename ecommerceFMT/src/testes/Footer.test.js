@@ -6,12 +6,24 @@ import { BrowserRouter } from "react-router-dom";
 import { Footer } from "../components/Footer/Footer";
 
 test("Footer componente", () => {
-  render(
+  const getByText = render(
     <BrowserRouter>
       <Footer />
     </BrowserRouter>
   );
-/* 
-  const text = screen.getByText();
-  expect(text).toBeInTheDocument(); */
+  const carrinho = getByText("Carrinho");
+  fireEvent.click(carrinho);
+  expect(window.location.pathname).toBe("/carrinho");
+
+  const home = getByText("Home");
+  fireEvent.click(home);
+  expect(window.location.pathname).toBe("/");
+
+  const contato = getByText("Contato");
+  fireEvent.click(contato);
+  expect(window.location.pathname).toBe("/contato");
+
+  const gamesShop = getByText("Games Shop");
+  fireEvent.click(gamesShop);
+  expect(window.location.pathname).toBe("/");
 });

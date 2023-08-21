@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1692577981760" clover="3.2.0">
+  <project timestamp="1692577981761" name="All files">
+    <metrics statements="96" coveredstatements="45" conditionals="17" coveredconditionals="1" methods="42" coveredmethods="16" elements="155" coveredelements="62" complexity="0" loc="96" ncloc="96" packages="15" files="18" classes="18"/>
+    <package name="components.BadgeCart">
+      <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="BadgeCart.jsx" path="C:\Users\Ursula\Desktop\ecommerceFMT\ecommerceFMT\src\components\BadgeCart\BadgeCart.jsx">
+        <metrics statements="3" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="5" count="1" type="stmt"/>
+        <line num="6" count="5" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+      </file>
+      <file name="index.js" path="C:\Users\Ursula\Desktop\ecommerceFMT\ecommerceFMT\src\components\BadgeCart\index.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="components.ButtonDefault">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="ButtonDefault.jsx" path="C:\Users\Ursula\Desktop\ecommerceFMT\ecommerceFMT\src\components\ButtonDefault\ButtonDefault.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.CardContactSubmit">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="CardContactSubmit.jsx" path="C:\Users\Ursula\Desktop\ecommerceFMT\ecommerceFMT\src\components\CardContactSubmit\CardContactSubmit.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="3" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+      </file>
+      <file name="index.js" path="C:\Users\Ursula\Desktop\ecommerceFMT\ecommerceFMT\src\components\CardContactSubmit\index.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="components.CartProduct">
+      <metrics statements="16" coveredstatements="2" conditionals="9" coveredconditionals="0" methods="8" coveredmethods="1"/>
+      <file name="CartProduct.jsx" path="C:\Users\Ursula\Desktop\ecommerceFMT\ecommerceFMT\src\components\CartProduct\CartProduct.jsx">
+        <metrics statements="16" coveredstatements="2" conditionals="9" coveredconditionals="0" methods="8" coveredmethods="1"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="4" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="14" count="0" type="cond" truecount="0" falsecount="3"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="18" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="25" count="0" type="stmt"/>
+        <line num="28" count="0" type="stmt"/>
+        <line num="30" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="33" count="0" type="stmt"/>
+        <line num="36" count="0" type="stmt"/>
+        <line num="37" count="0" type="stmt"/>
+        <line num="41" count="0" type="stmt"/>
+        <line num="60" count="0" type="stmt"/>
+        <line num="67" count="0" type="stmt"/>
+        <line num="77" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.Footer">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="Footer.jsx" path="C:\Users\Ursula\Desktop\ecommerceFMT\ecommerceFMT\src\components\Footer\Footer.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="12" count="1" type="stmt"/>
+        <line num="13" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.FormContact">
+      <metrics statements="9" coveredstatements="7" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="2"/>
+      <file name="FormContact.jsx" path="C:\Users\Ursula\Desktop\ecommerceFMT\ecommerceFMT\src\components\FormContact\FormContact.jsx">
+        <metrics statements="9" coveredstatements="7" conditionals="2" coveredconditionals="1" methods="3" coveredmethods="2"/>
+        <line num="6" count="2" type="stmt"/>
+        <line num="7" count="5" type="stmt"/>
+        <line num="8" count="5" type="stmt"/>
+        <line num="15" count="5" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="17" count="0" type="stmt"/>
+        <line num="20" count="5" type="stmt"/>
+        <line num="21" count="3" type="stmt"/>
+        <line num="24" count="5" type="stmt"/>
+      </file>
+      <file name="index.js" path="C:\Users\Ursula\Desktop\ecommerceFMT\ecommerceFMT\src\components\FormContact\index.js">
+        <metrics statements="0" coveredstatements="0" conditionals="0" coveredconditionals="0" methods="0" coveredmethods="0"/>
+      </file>
+    </package>
+    <package name="components.Header">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="Header.jsx" path="C:\Users\Ursula\Desktop\ecommerceFMT\ecommerceFMT\src\components\Header\Header.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="3" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.ProductCard">
+      <metrics statements="7" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="1"/>
+      <file name="ProductCard.component.jsx" path="C:\Users\Ursula\Desktop\ecommerceFMT\ecommerceFMT\src\components\ProductCard\ProductCard.component.jsx">
+        <metrics statements="7" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="4" coveredmethods="1"/>
+        <line num="7" count="2" type="stmt"/>
+        <line num="8" count="4" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="10" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="20" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.Search">
+      <metrics statements="12" coveredstatements="4" conditionals="2" coveredconditionals="0" methods="5" coveredmethods="1"/>
+      <file name="Search.jsx" path="C:\Users\Ursula\Desktop\ecommerceFMT\ecommerceFMT\src\components\Search\Search.jsx">
+        <metrics statements="12" coveredstatements="4" conditionals="2" coveredconditionals="0" methods="5" coveredmethods="1"/>
+        <line num="7" count="6" type="stmt"/>
+        <line num="9" count="1" type="stmt"/>
+        <line num="10" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="14" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="16" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="21" count="1" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="25" count="1" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="components.TotalCart">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="TotalCart.jsx" path="C:\Users\Ursula\Desktop\ecommerceFMT\ecommerceFMT\src\components\TotalCart\TotalCart.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="6" count="1" type="stmt"/>
+        <line num="7" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="context">
+      <metrics statements="23" coveredstatements="4" conditionals="4" coveredconditionals="0" methods="9" coveredmethods="1"/>
+      <file name="Context.jsx" path="C:\Users\Ursula\Desktop\ecommerceFMT\ecommerceFMT\src\context\Context.jsx">
+        <metrics statements="23" coveredstatements="4" conditionals="4" coveredconditionals="0" methods="9" coveredmethods="1"/>
+        <line num="4" count="6" type="stmt"/>
+        <line num="6" count="6" type="stmt"/>
+        <line num="7" count="0" type="stmt"/>
+        <line num="8" count="0" type="stmt"/>
+        <line num="9" count="0" type="stmt"/>
+        <line num="11" count="0" type="stmt"/>
+        <line num="12" count="0" type="stmt"/>
+        <line num="13" count="0" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+        <line num="18" count="0" type="stmt"/>
+        <line num="19" count="0" type="stmt"/>
+        <line num="20" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="21" count="0" type="stmt"/>
+        <line num="22" count="0" type="stmt"/>
+        <line num="23" count="0" type="stmt"/>
+        <line num="24" count="0" type="stmt"/>
+        <line num="26" count="0" type="stmt"/>
+        <line num="28" count="0" type="cond" truecount="0" falsecount="2"/>
+        <line num="34" count="0" type="stmt"/>
+        <line num="35" count="0" type="stmt"/>
+        <line num="38" count="0" type="stmt"/>
+        <line num="56" count="6" type="stmt"/>
+        <line num="57" count="24" type="stmt"/>
+      </file>
+    </package>
+    <package name="pages.Homepage">
+      <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+      <file name="Homepage.jsx" path="C:\Users\Ursula\Desktop\ecommerceFMT\ecommerceFMT\src\pages\Homepage\Homepage.jsx">
+        <metrics statements="4" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="1"/>
+        <line num="7" count="1" type="stmt"/>
+        <line num="8" count="1" type="stmt"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="15" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="pages.NotFoundPage">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="NotFoundPage.jsx" path="C:\Users\Ursula\Desktop\ecommerceFMT\ecommerceFMT\src\pages\NotFoundPage\NotFoundPage.jsx">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="4" count="1" type="stmt"/>
+        <line num="5" count="1" type="stmt"/>
+      </file>
+    </package>
+    <package name="pages.ProductPage">
+      <metrics statements="8" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+      <file name="Product.page.jsx" path="C:\Users\Ursula\Desktop\ecommerceFMT\ecommerceFMT\src\pages\ProductPage\Product.page.jsx">
+        <metrics statements="8" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="3" coveredmethods="1"/>
+        <line num="10" count="1" type="stmt"/>
+        <line num="11" count="5" type="stmt"/>
+        <line num="12" count="4" type="stmt"/>
+        <line num="14" count="4" type="stmt"/>
+        <line num="16" count="4" type="stmt"/>
+        <line num="18" count="4" type="stmt"/>
+        <line num="20" count="4" type="stmt"/>
+        <line num="40" count="0" type="stmt"/>
+      </file>
+    </package>
+    <package name="utils">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <file name="formatCurrency.js" path="C:\Users\Ursula\Desktop\ecommerceFMT\ecommerceFMT\src\utils\formatCurrency.js">
+        <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+        <line num="1" count="5" type="stmt"/>
+        <line num="2" count="1" type="stmt"/>
+      </file>
+    </package>
+  </project>
+</coverage>

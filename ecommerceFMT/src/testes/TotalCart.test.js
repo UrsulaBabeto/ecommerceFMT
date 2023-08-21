@@ -7,10 +7,10 @@ import { BrowserRouter } from "react-router-dom";
 import TotalCart from "../components/TotalCart/TotalCart";
 
 
-test("Footer componente", () => {
+test("TotalCart ", () => {
   render(
     <BrowserRouter>
-      <TotalCart total={[{prduct:"", img:"", price:0}]} />
+      <TotalCart total={[{product:"", img:"", price:0}]} />
     </BrowserRouter>
   );
 /* 

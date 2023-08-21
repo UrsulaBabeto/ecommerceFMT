@@ -1,7 +1,7 @@
 /** @jest-environment jsdom */
 import React from "react";
 import '@testing-library/jest-dom';
-import { render } from "@testing-library/react";
+import { render, screen } from "@testing-library/react";
 import { Homepage } from "../pages/Homepage/Homepage";
 import { AppContext } from "../context/Context";
 
@@ -16,10 +16,11 @@ const customRender = (ui) => (
   <AppContext.Provider value={userContextValue}>{ui}</AppContext.Provider>
 );
 
-test("Apresenta pagina com produtos, barra de busca", () => {
-  const { getByText } = render(
+test("Homepage", () => {
+ const dataTestid = render(
     <AppContext.Provider value={userContextValue}>
       <Homepage />
     </AppContext.Provider>
   );
+
 });

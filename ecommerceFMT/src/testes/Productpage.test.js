@@ -1,7 +1,7 @@
- /** @jest-environment jsdom */
-/*import React from "react";
-import '@testing-library/jest-dom';
-import { render } from "@testing-library/react";
+/** @jest-environment jsdom */
+import React from "react";
+import "@testing-library/jest-dom";
+import { fireEvent, render, screen } from "@testing-library/react";
 import { AppContext } from "../context/Context";
 import { ProductPage } from "../pages/ProductPage/Product.page";
 
@@ -16,11 +16,14 @@ const customRender = (ui) => (
   <AppContext.Provider value={userContextValue}>{ui}</AppContext.Provider>
 );
 
-test("Renderiza lista de card de produtos", () => {
-   render(
+test(" ProductPage Renderiza lista de card de produtos", () => {
+  const btnClose = jest.fn();
+  const { getByTestId } = render(
     <AppContext.Provider value={userContextValue}>
-      <ProductPage />
+      <ProductPage closeRightSection={btnClose} />
     </AppContext.Provider>
   );
+
+  fireEvent.click(getByTestId("id"));
+  expect(btnClose).toHaveBeenCalled();
 });
- */

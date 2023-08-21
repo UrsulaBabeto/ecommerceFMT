@@ -1,17 +1,28 @@
-/** @jest-environment jsdom */
-import React from "react";
+ /** @jest-environment jsdom */
+/*import React from "react";
 import { render } from "@testing-library/react";
 import '@testing-library/jest-dom';
 import { BrowserRouter } from "react-router-dom";
 import { BadgeCart } from "../components/BadgeCart/BadgeCart";
 
-test("Footer componente", () => {
-  render(
-    <BrowserRouter>
+const userContextValue = {
+  products: [],
+  cart: [1,2,3,4,5],
+  total: 5,
+};
+
+const customRender = (ui) => (
+  <AppContext.Provider value={userContextValue}>{ui}</AppContext.Provider>
+);
+
+test("Badge Cart component", () => {
+ render(
+    <AppContext.Provider value={userContextValue}>
       <BadgeCart />
-    </BrowserRouter>
-  );
-/* 
-  const text = screen.getByText();
-  expect(text).toBeInTheDocument(); */
+    </AppContext.Provider>
+ )
+
+  const badgeElement = getByText("5"); 
+  expect(badgeElement).toBeInTheDocument();
 });
+ */

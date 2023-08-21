@@ -5,8 +5,9 @@ import { render, screen } from "@testing-library/react";
 import { NotFoundPage } from "../pages/NotFoundPage/NotFoundPage";
 
 test("Pagina 404", () => {
-  render(<NotFoundPage />);
+  const notFoundIcon = render(<NotFoundPage />);
 
   const text = screen.getByText("404 Página não encontrada!");
   expect(text).toBeInTheDocument();
+
 });
