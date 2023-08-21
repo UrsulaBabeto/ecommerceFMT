@@ -8,7 +8,7 @@ import { CardContactSubmit } from "../components/CardContactSubmit/CardContactSu
 test("CardContactSubmit componente", () => {
   render(
   
-      <CardContactSubmit lastName="" firstName="" email="" message="" />
+      <CardContactSubmit />
   
   );
 
