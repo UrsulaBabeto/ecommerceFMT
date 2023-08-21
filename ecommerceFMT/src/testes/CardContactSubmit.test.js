@@ -7,11 +7,9 @@ import { CardContactSubmit } from "../components/CardContactSubmit/CardContactSu
 
 test("CardContactSubmit componente", () => {
   render(
-    <BrowserRouter>
-      <CardContactSubmit />
-    </BrowserRouter>
+  
+      <CardContactSubmit lastName="" firstName="" email="" message="" />
+  
   );
-/* 
-  const text = screen.getByText();
-  expect(text).toBeInTheDocument(); */
+
 });

@@ -1,5 +1,5 @@
  /** @jest-environment jsdom */
-/*import React from "react";
+import React from "react";
 import { render } from "@testing-library/react";
 import '@testing-library/jest-dom';
 import { BrowserRouter } from "react-router-dom";
@@ -25,4 +25,4 @@ test("Badge Cart component", () => {
   const badgeElement = getByText("5"); 
   expect(badgeElement).toBeInTheDocument();
 });
- */
+ 

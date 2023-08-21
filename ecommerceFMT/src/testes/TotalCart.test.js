@@ -13,7 +13,5 @@ test("TotalCart ", () => {
       <TotalCart total={[{product:"", img:"", price:0}]} />
     </BrowserRouter>
   );
-/* 
-  const text = screen.getByText();
-  expect(text).toBeInTheDocument(); */
+
 });

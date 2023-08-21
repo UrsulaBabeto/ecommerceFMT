@@ -1,9 +1,9 @@
  /** @jest-environment jsdom */
-/*import React from "react";
+import React from "react";
 import '@testing-library/jest-dom';
 import { render } from "@testing-library/react";
-import { Homepage } from "../pages/Homepage/Homepage";
 import { AppContext } from "../context/Context";
+import { CartPage } from "../pages/CartPage/CartPage";
 
 const userContextValue = {
   products: [],
@@ -16,11 +16,11 @@ const customRender = (ui) => (
   <AppContext.Provider value={userContextValue}>{ui}</AppContext.Provider>
 );
 
-test("Apresenta pagina com produtos, barra de busca", () => {
+test("CartPage", () => {
   const { getByText } = render(
     <AppContext.Provider value={userContextValue}>
-      <Homepage />
+      <CartPage />
     </AppContext.Provider>
   );
 });
- */
+ 

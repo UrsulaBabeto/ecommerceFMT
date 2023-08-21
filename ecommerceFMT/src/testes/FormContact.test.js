@@ -21,4 +21,11 @@ test("FormContact componente", () => {
   fireEvent.click(getByTestId("id"));
   expect(mockTest).toHaveBeenCalled();
 
+  const clickEvent = new MouseEvent('click');
+  Object.assign(clickEvent, {preventDefault: jest.fn()});
+
+  fireEvent(button, clickEvent);
+
+  expect(clickEvent.preventDefault).toHaveBeenCalledTimes(1);
+
 });
